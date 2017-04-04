@@ -58,6 +58,7 @@ $('#shopping-list-form')
     var name = $('#shopping-list-entry').val();
     add(name);
     appendList();
+    $('#shopping-list-form').children('input').val(''); ///look at me//
   });
 
 $('.shopping-list').on('click', '.delete', function () {
